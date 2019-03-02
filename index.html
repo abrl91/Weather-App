@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Wether-app with Vanilla JS</title>
+</head>
+<body>
+    <div id="search-container">
+        <input class="search-control" type="text" placeholder="City Name or Zipcode" id="search-input">
+        <button class="search-control" id="search-btn">Search</button>
+    </div>
+    <div id="weather-container">
+        <div id="weather-description">
+            <h1 id="city-header"></h1>
+            <div id="weather-main">
+                <div id="temp"></div>
+                <div id="weather-desc-header"></div>
+                <div><img id="icon"></div>
+            </div>
+            <hr>
+            <div id="wind-speed" class="bottom-details"></div>
+            <div id="humidity" class="bottom-details"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('./images/4k-ultrahd-weather-satellite-3659_mygndhis__F0000.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    font-family: fantasy;
+}
+
+
+input {
+    height: 30px;
+    width: 240px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+button {
+    height: 30px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(12, 109, 206);
+    color: white;
+}
+
+ hr {
+     margin-bottom: 20px;
+ }
+
